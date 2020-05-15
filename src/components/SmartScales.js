@@ -1,0 +1,19 @@
+import React from "react"
+
+function SmartScales(props) {
+    return(
+        <div class="other">
+            <img class="small-div" src={props.scale.src} alt="Fitbit Ionic" />
+            
+            <div class="name">
+                <h3>{props.scale.title}</h3>
+            </div>
+            <div class="price">
+                <span>{props.scale.price}</span>
+            </div>
+
+        </div>
+    )
+}
+
+export default SmartScales
