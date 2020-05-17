@@ -10,8 +10,14 @@ import ionicData from "./IonicData"
 import trackersData from "./TrackersData"
 import smartScalesData from "./SmartScalesData"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons"
+import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons"
+import { faPinterestSquare } from "@fortawesome/free-brands-svg-icons"
+import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons"
+
+
 
 function Container2(props) {
 
@@ -84,7 +90,7 @@ function Container2(props) {
             <div className="footer">
                 <div className="contact">
 
-                    <h3 class="get">Get the inside scoop on all things Fitbit.</h3>
+                    <h3 className="get">Get the inside scoop on all things Fitbit.</h3>
                     <input type="email" name="email" className="email" placeholder="Enter your email address" />
 
                 </div>
@@ -92,15 +98,15 @@ function Container2(props) {
             
 
                 <div className="social">
-                    <h3 className="follow" class="get">Follow Us</h3>
+                    <h3 className="get follow">Follow Us</h3>
                     <div className="icons">
 
-                        <FontAwesomeIcon icon={faFacebookSquare} />
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                        <i class="fab fa-instagram-square fa-2x"></i>
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                        <i class="fab fa-pinterest-square fa-2x"></i>
-                        <i class="fab fa-youtube-square fa-2x"></i>
+                        <FontAwesomeIcon icon={faFacebookSquare} size="lg" />
+                        <FontAwesomeIcon icon={faInstagramSquare} size="lg" />
+                        <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
+                        <FontAwesomeIcon icon={faPinterestSquare} size="lg" />
+                        <FontAwesomeIcon icon={faYoutubeSquare} size="lg" />
+                        
 
                     </div>
 

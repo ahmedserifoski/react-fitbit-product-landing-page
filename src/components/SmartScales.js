@@ -2,13 +2,13 @@ import React from "react"
 
 function SmartScales(props) {
     return(
-        <div class="other">
-            <img class="small-div" src={props.scale.src} alt="Fitbit Ionic" />
+        <div className="other">
+            <img className="small-div" src={props.scale.src} alt="Fitbit SmartScales" />
             
-            <div class="name">
+            <div className="name">
                 <h3>{props.scale.title}</h3>
             </div>
-            <div class="price">
+            <div className="price">
                 <span>{props.scale.price}</span>
             </div>
 

@@ -1,5 +1,10 @@
 import React from "react"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBraille } from "@fortawesome/free-solid-svg-icons"
+
+import ResponsiveMenu from 'react-responsive-navbar';
+
 import '../App.css';
 
 function Container1(props) {
@@ -8,7 +13,20 @@ function Container1(props) {
 
         <nav>
             <ul className="menu">
-              <li className="logo"><a href="#menu"><i className="fas fa-braille"></i>fitbit</a></li>
+              <li className="logo"><a href="#menu"><FontAwesomeIcon icon={faBraille} />fitbit</a></li>
+              <ResponsiveMenu 
+                menuOpenButton={<div />}
+                menuCloseButton={<div />}
+                changeMenuOn="500px"
+                menu={
+                  <ul>
+                    <li className="item">Item 1</li>
+                    <li className="item">Item 2</li>
+                    <li className="item">Item 3</li>
+                    <li className="item">Item 4</li>
+                  </ul>
+                }
+              />
               <li className="item"><a href="#versa-title">Smartwatches</a></li>
               <li className="item"><a href="#trackers-title">Trackers</a></li>
               <li className="item"><a href="#services-title">Services</a></li>
