@@ -84,7 +84,7 @@ function Container2(props) {
             <div className="footer">
                 <div className="contact">
 
-                    <h3 class="get">Get the inside scoop on all things Fitbit.</h3>
+                    <h3 className="get">Get the inside scoop on all things Fitbit.</h3>
                     <input type="email" name="email" className="email" placeholder="Enter your email address" />
 
                 </div>
@@ -92,7 +92,7 @@ function Container2(props) {
             
 
                 <div className="social">
-                    <h3 className="follow" class="get">Follow Us</h3>
+                    <h3 className="follow get">Follow Us</h3>
                     <div className="icons">
 
                         

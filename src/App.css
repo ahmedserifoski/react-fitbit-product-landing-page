@@ -89,7 +89,7 @@ a:hover {
   background-color: white;
   color: rgb(0, 42, 58);
 }
-.item.active {
+.active {
   display: block;
 }
 
