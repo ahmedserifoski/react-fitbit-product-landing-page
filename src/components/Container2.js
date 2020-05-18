@@ -10,8 +10,8 @@ import ionicData from "./IonicData"
 import trackersData from "./TrackersData"
 import smartScalesData from "./SmartScalesData"
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare } from '@fortawesome/free-solid-svg-icons'
+
+
 
 function Container2(props) {
 
@@ -95,7 +95,7 @@ function Container2(props) {
                     <h3 className="follow" class="get">Follow Us</h3>
                     <div className="icons">
 
-                        <FontAwesomeIcon icon={faFacebookSquare} />
+                        
                         <i class="fab fa-facebook-square fa-2x"></i>
                         <i class="fab fa-instagram-square fa-2x"></i>
                         <i class="fab fa-twitter-square fa-2x"></i>
