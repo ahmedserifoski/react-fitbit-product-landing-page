@@ -10,7 +10,12 @@ import ionicData from "./IonicData"
 import trackersData from "./TrackersData"
 import smartScalesData from "./SmartScalesData"
 
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons"
+import { faTwitterSquare } from "@fortawesome/free-brands-svg-icons"
+import { faPinterestSquare } from "@fortawesome/free-brands-svg-icons"
+import { faYoutubeSquare } from "@fortawesome/free-brands-svg-icons"
 
 
 function Container2(props) {
@@ -96,11 +101,11 @@ function Container2(props) {
                     <div className="icons">
 
                         
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                        <i class="fab fa-instagram-square fa-2x"></i>
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                        <i class="fab fa-pinterest-square fa-2x"></i>
-                        <i class="fab fa-youtube-square fa-2x"></i>
+                    <FontAwesomeIcon icon={faFacebookSquare} size="lg" />
+                    <FontAwesomeIcon icon={faInstagramSquare} size="lg" />
+                    <FontAwesomeIcon icon={faTwitterSquare} size="lg" />
+                    <FontAwesomeIcon icon={faPinterestSquare} size="lg" />
+                    <FontAwesomeIcon icon={faYoutubeSquare} size="lg" />
 
                     </div>
 
