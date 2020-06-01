@@ -1,6 +1,6 @@
 # FitBit Product Landing Page Clone
 
-**LIVE LINK:** https://react-survey-form-coffee-shop.netlify.app/
+**LIVE LINK:** https://react-fitbit-landing-page.netlify.app/
 
 ## Features
 * Fully responsive (mobile first)
